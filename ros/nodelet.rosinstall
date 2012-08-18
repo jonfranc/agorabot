@@ -1,0 +1,7 @@
+- hg:
+    local-name: nodelet_core
+    meta:
+      repo-name: wg-kforge
+    uri: https://kforge.ros.org/common/nodeletcore
+    version: default
+

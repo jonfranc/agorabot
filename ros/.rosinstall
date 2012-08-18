@@ -1,0 +1,16 @@
+# THIS IS A FILE WHICH IS MODIFIED BY rosinstall
+# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
+# UNLESS FOR REMOVING ENTRIES.
+# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
+# USE THE rosinstall TOOL INSTEAD.
+# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
+- other: {local-name: /opt/ros/electric/ros}
+- other: {local-name: /opt/ros/electric/stacks}
+- svn: {local-name: bigg_detector, uri: 'https://code.ros.org/svn/wg-ros-pkg/branches/trunk_diamondback/stacks/object_recognition/bigg_detector'}
+- svn: {local-name: flann, uri: 'http://svn.pointclouds.org/ros/trunk/perception_pcl_electric_unstable/flann'}
+- hg:
+    local-name: nodelet_core
+    meta: {repo-name: wg-kforge}
+    uri: https://kforge.ros.org/common/nodeletcore
+    version: default
+- svn: {local-name: rein, uri: 'https://code.ros.org/svn/wg-ros-pkg/branches/trunk_diamondback/stacks/object_recognition/rein'}

@@ -1,0 +1,40 @@
+10
+
+dir
+54370
+https://code.ros.org/svn/wg-ros-pkg/branches/trunk_diamondback/stacks/object_recognition/rein/src
+https://code.ros.org/svn/wg-ros-pkg
+
+
+
+2011-06-16T19:35:37.030466Z
+51876
+mariusm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7275ad9f-c29b-430a-bdc5-66f4b3af1622
+
+tools
+dir
+
+io
+dir
+
+algorithms
+dir
+
+nodelets
+dir
+
