@@ -1,0 +1,17 @@
+<package>
+  <description brief="tutorials">
+
+     tutorials
+
+  </description>
+  <author>Jon Francis</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/tutorials</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+</package>
+
+
