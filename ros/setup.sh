@@ -5,7 +5,7 @@
 # USE THE rosinstall OR rosws TOOL INSTEAD.
 # see: http://www.ros.org/wiki/rosinstall
 
-export ROS_WORKSPACE=/home/magnate/ros
+export ROS_WORKSPACE=/home/magnate/agorarobot/ros
 if [ ! "$ROS_MASTER_URI" ] ; then export ROS_MASTER_URI=http://localhost:11311 ; fi
 unset ROS_ROOT
 
