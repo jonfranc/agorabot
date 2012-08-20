@@ -1,0 +1,21 @@
+Jon Francis (jmfrancis@cmu.edu)
+Carnegie Mellon University
+Intel Science & Technology Center for Embedded Computing
+AndyVision / Project Agora / Future of Retail
+08/15/12
+
+This is a ROS-based, distributed software environment for the Agora robot -- specifically,
+predicated on the ELECTRIC version of ROS. Setup and tutorial information is included 
+below.
+
+- install ROS electric -- http://www.ros.org/wiki/electric/Installation
+- acquaint yourself with the ROS environment -- http://www.ros.org/wiki/ROS/Tutorials
+
+- contact Jon for repository access -- jmfrancis@cmu.edu
+- clone agora robot development repository -- git clone https://USERNAME@bitbucket.org/USERNAME/agorarobot.git
+
+- add "source ~/agorarobot/ros/setup.bash" to ~/.bashrc
+- add "source /opt/ros/electric/setup.sh" to the end of "~/.bashrc"
+- add ":~/agorarobot/ros" to the end of ROS_PACKAGE_PATH in {ROS_ROOT}/setup.sh
+
+- contact Jon if you have any questions
