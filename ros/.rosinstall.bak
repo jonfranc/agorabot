@@ -13,3 +13,4 @@
     meta: {repo-name: wg-kforge}
     uri: https://kforge.ros.org/common/nodeletcore
     version: default
+- svn: {local-name: rein, uri: 'https://code.ros.org/svn/wg-ros-pkg/branches/trunk_diamondback/stacks/object_recognition/rein'}

@@ -26,11 +26,8 @@ if [ ! -f "$SCRIPT_PATH/setup.sh" ]; then
   echo "Bug: shell script unable to determine its own location: $SCRIPT_PATH"
   return 22
 fi
-
-
 # unset _ros_decode_path to check later whether setup.sh has sourced rosbash
 unset -f _ros_decode_path 1> /dev/null 2>&1
-
 . $SCRIPT_PATH/setup.sh
 # Cannot rely on $? due to set -o errexit in build scripts
 RETURNCODE=`type _ros_decode_path 2> /dev/null | grep function 1>/dev/null 2>&1 || echo error`

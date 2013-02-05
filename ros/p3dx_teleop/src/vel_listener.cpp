@@ -6,6 +6,9 @@
 // Define a robot
 ArRobot robot;
 
+//Used to access and proccess sonar range data
+//ArSonarDevice sonarDev;
+
 void chatterCallback(const boost::shared_ptr<geometry_msgs::Twist const>& msg)
 {
     ROS_INFO("Received %f %f %f %f %f %f", msg->linear.x, msg->linear.y, msg->linear.z, msg->angular.x, msg->angular.y, msg->angular.z);
@@ -17,6 +20,8 @@ int main(int argc, char** argv)
 {
     //Initialize Aria and a parser for the commands
     Aria::init();
+
+    //This object parses program options from the command line
     ArArgumentParser parser(&argc,argv); 
 
     //Connect the robot with the parser
@@ -42,6 +47,9 @@ int main(int argc, char** argv)
 
     robot.attachKeyHandler(&keyHandler);
     printf("You may press escape to exit\n");
+
+    // Attach sonarDev to the robot so it gets data from it
+    //robot.addRangeDevice(&sonarDev);
 
     // Give time to finish all the settings
     ArUtil::sleep(4000);

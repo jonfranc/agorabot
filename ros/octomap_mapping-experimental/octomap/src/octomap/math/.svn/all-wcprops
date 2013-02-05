@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1162/branches/octomap_mapping-experimental/octomap/src/octomap/math
+END
+Pose6D.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1162/branches/octomap_mapping-experimental/octomap/src/octomap/math/Pose6D.cpp
+END
+Quaternion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1162/branches/octomap_mapping-experimental/octomap/src/octomap/math/Quaternion.cpp
+END
+Vector3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1162/branches/octomap_mapping-experimental/octomap/src/octomap/math/Vector3.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/968/branches/octomap_mapping-experimental/octomap/src/octomap/math/CMakeLists.txt
+END

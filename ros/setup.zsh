@@ -15,11 +15,8 @@ if [ ! -f "$SCRIPT_PATH/setup.sh" ]; then
   echo "Bug: shell script unable to determine its own location: $SCRIPT_PATH"
   return 22
 fi
-
-
 # unset _ros_decode_path to check later whether setup.sh has sourced roszsh
 unset -f _ros_decode_path 1> /dev/null 2>&1
-
 . $SCRIPT_PATH/setup.sh
 # Cannot rely on $? due to set -o errexit in build scripts
 RETURNCODE=`type _ros_decode_path 2> /dev/null | grep function 1>/dev/null 2>&1 || echo error`
@@ -27,7 +24,7 @@ RETURNCODE=`type _ros_decode_path 2> /dev/null | grep function 1>/dev/null 2>&1 
 if [ ! "$RETURNCODE" = "" ]; then
   RETURNCODE=`rospack help 1> /dev/null 2>&1 || echo error`
   if  [ "$RETURNCODE" = "" ]; then
-    ROSSHELL_PATH=`rospack find rosbash`/rosbash
+    ROSSHELL_PATH=`rospack find rosbash`/roszsh
     if [ -e "$ROSSHELL_PATH" ]; then
       . $ROSSHELL_PATH
     fi

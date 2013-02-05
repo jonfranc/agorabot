@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2924/trunk/rgbdslam_freiburg/rgbdslam/src
+END
+misc.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2717/trunk/rgbdslam_freiburg/rgbdslam/src/misc.h
+END
+graph_manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2717/trunk/rgbdslam_freiburg/rgbdslam/src/graph_manager.h
+END
+openni_listener.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2717/trunk/rgbdslam_freiburg/rgbdslam/src/openni_listener.h
+END
+parameter_server.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2924/trunk/rgbdslam_freiburg/rgbdslam/src/parameter_server.cpp
+END
+qtros.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2357/trunk/rgbdslam_freiburg/rgbdslam/src/qtros.cpp
+END
+edge.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2357/trunk/rgbdslam_freiburg/rgbdslam/src/edge.h
+END
+parameter_server.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2924/trunk/rgbdslam_freiburg/rgbdslam/src/parameter_server.h
+END
+qtros.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2357/trunk/rgbdslam_freiburg/rgbdslam/src/qtros.h
+END
+gicp-fallback.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2357/trunk/rgbdslam_freiburg/rgbdslam/src/gicp-fallback.cpp
+END
+ros_service_ui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2717/trunk/rgbdslam_freiburg/rgbdslam/src/ros_service_ui.cpp
+END
+sift_gpu_wrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2717/trunk/rgbdslam_freiburg/rgbdslam/src/sift_gpu_wrapper.cpp
+END
+gicp-fallback.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2357/trunk/rgbdslam_freiburg/rgbdslam/src/gicp-fallback.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2717/trunk/rgbdslam_freiburg/rgbdslam/src/main.cpp
+END
+glviewer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2780/trunk/rgbdslam_freiburg/rgbdslam/src/glviewer.cpp
+END
+sift_gpu_wrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2357/trunk/rgbdslam_freiburg/rgbdslam/src/sift_gpu_wrapper.h
+END
+node.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2924/trunk/rgbdslam_freiburg/rgbdslam/src/node.cpp
+END
+ros_service_ui.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2717/trunk/rgbdslam_freiburg/rgbdslam/src/ros_service_ui.h
+END
+qt_gui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2924/trunk/rgbdslam_freiburg/rgbdslam/src/qt_gui.cpp
+END
+glviewer.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2357/trunk/rgbdslam_freiburg/rgbdslam/src/glviewer.h
+END
+node.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2717/trunk/rgbdslam_freiburg/rgbdslam/src/node.h
+END
+graph_manager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2866/trunk/rgbdslam_freiburg/rgbdslam/src/graph_manager.cpp
+END
+misc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2805/trunk/rgbdslam_freiburg/rgbdslam/src/misc.cpp
+END
+openni_listener.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2866/trunk/rgbdslam_freiburg/rgbdslam/src/openni_listener.cpp
+END
+matching_result.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2357/trunk/rgbdslam_freiburg/rgbdslam/src/matching_result.h
+END
+qt_gui.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2924/trunk/rgbdslam_freiburg/rgbdslam/src/qt_gui.h
+END
